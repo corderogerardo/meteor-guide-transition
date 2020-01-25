@@ -1,5 +1,8 @@
 import {Template} from 'meteor/templating'
 
+import './helloWorld.scss';
+import './helloWorld.html';
+
 Template.helloWorld.onCreated(()=>{
     console.log("should display this message on template created ");
 });
